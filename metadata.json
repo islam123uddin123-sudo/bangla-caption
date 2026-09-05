@@ -1,0 +1,6 @@
+{
+  "name": "বাংলা ক্যাপশন",
+  "description": "মনের কথা বলুন সুন্দর ক্যাপশনে - আধুনিক বাংলা ক্যাপশন সংগ্রহ, কপি, শেয়ার ও পছন্দের তালিকা।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
