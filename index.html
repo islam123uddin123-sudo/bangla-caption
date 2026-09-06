@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="description" content="বাংলা ক্যাপশন - সেরা ও ট্রেন্ডিং বাংলা স্ট্যাটাস, উক্তি ও ক্যাপশন সংগ্রহ। ফেসবুক, ইনস্টাগ্রাম ও হোয়াটসঅ্যাপের জন্য এক ক্লিকে কপি ও শেয়ার করুন।">
+  <meta name="theme-color" content="#059669">
+  <title>বাংলা ক্যাপশন - সেরা বাংলা ক্যাপশন ও স্ট্যাটাস সংগ্রহ</title>
+
+  <!-- Google Fonts: Hind Siliguri -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #059669;
+      --primary-hover: #047857;
+      --primary-light: #ecfdf5;
+      --primary-border: #a7f3d0;
+      --accent: #10b981;
+      --accent-coral: #f43f5e;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --surface-card: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.07);
+      --shadow-lg: 0 10px 25px -3px rgba(0,0,0,0.1);
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --font-family: 'Hind Siliguri', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    [data-theme="dark"] {
+      --primary: #10b981;
+      --primary-hover: #34d399;
+      --primary-light: #064e3b;
+      --primary-border: #065f46;
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --surface-card: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: #334155;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+      --shadow-lg: 0 10px 25px -3px rgba(0,0,0,0.6);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    /* Container */
+    .container {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    /* Header & Navigation */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      gap: 12px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 1.35rem;
+      letter-spacing: -0.5px;
+    }
+
+    .logo-icon {
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(135deg, #059669, #10b981);
+      color: white;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      box-shadow: 0 2px 8px rgba(5, 150, 105, 0.35);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.15rem;
+      transition: all 0.2s ease;
+    }
+
+    .btn-icon:hover {
+      background: var(--primary-light);
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+
+    .btn-random {
+      background: linear-gradient(135deg, #059669, #10b981);
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 600;
+      font-size: 0.92rem;
+      cursor: pointer;
+      font-family: inherit;
+      box-shadow: 0 2px 8px rgba(5, 150, 105, 0.3);
+      transition: all 0.2s ease;
+    }
+
+    .btn-random:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(5, 150, 105, 0.4);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 28px 0 16px;
+      text-align: center;
+      background: linear-gradient(180deg, var(--surface) 0%, var(--bg) 100%);
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      border: 1px solid var(--primary-border);
+    }
+
+    .hero-title {
+      font-size: 2.1rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 8px;
+      line-height: 1.25;
+    }
+
+    .hero-subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 550px;
+      margin: 0 auto 20px;
+    }
+
+    /* Search Bar */
+    .search-box {
+      max-width: 600px;
+      margin: 0 auto 20px;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      height: 52px;
+      padding: 0 48px 0 46px;
+      border-radius: 26px;
+      border: 2px solid var(--border);
+      background: var(--surface);
+      color: var(--text-main);
+      font-size: 1rem;
+      font-family: inherit;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(5, 150, 105, 0.15);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-clear {
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: none;
+      padding: 4px;
+      border-radius: 50%;
+    }
+
+    .search-clear:hover {
+      color: var(--text-main);
+    }
+
+    /* Tabs Filter (All, Popular, Favorites) */
+    .view-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .view-tab {
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-family: inherit;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-muted);
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .view-tab:hover {
+      color: var(--primary);
+      border-color: var(--primary-border);
+    }
+
+    .view-tab.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+      box-shadow: 0 2px 8px rgba(5, 150, 105, 0.3);
+    }
+
+    /* Category Chips - Scrollable */
+    .categories-wrapper {
+      margin-bottom: 24px;
+    }
+
+    .categories-list {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 6px 4px 12px;
+      scrollbar-width: thin;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .categories-list::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .categories-list::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 4px;
+    }
+
+    .cat-chip {
+      white-space: nowrap;
+      padding: 8px 16px;
+      border-radius: 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      font-size: 0.92rem;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: inherit;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    .cat-chip:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+
+    .cat-chip.active {
+      background: var(--primary-light);
+      border-color: var(--primary);
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    /* Content Status Bar */
+    .status-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      padding: 0 4px;
+    }
+
+    .caption-count {
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    /* Caption Grid */
+    .caption-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+
+    /* Caption Card */
+    .caption-card {
+      background: var(--surface-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .caption-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-border);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .card-cat-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.8rem;
+      padding: 3px 10px;
+      border-radius: 12px;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    .card-fav-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-size: 1.25rem;
+      padding: 4px;
+      line-height: 1;
+      border-radius: 50%;
+      transition: transform 0.15s ease, color 0.15s ease;
+    }
+
+    .card-fav-btn:hover {
+      transform: scale(1.15);
+    }
+
+    .card-fav-btn.is-fav {
+      color: var(--accent-coral);
+    }
+
+    .caption-text {
+      font-size: 1.12rem;
+      line-height: 1.7;
+      color: var(--text-main);
+      font-weight: 500;
+      margin-bottom: 20px;
+      flex-grow: 1;
+      word-break: break-word;
+    }
+
+    .card-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+    }
+
+    .btn-action {
+      flex: 1;
+      padding: 9px 12px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-main);
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-action:hover {
+      background: var(--primary-light);
+      color: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .btn-action.btn-copy-main {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+
+    .btn-action.btn-copy-main:hover {
+      background: var(--primary-hover);
+    }
+
+    .btn-action.copied {
+      background: #10b981 !important;
+      color: white !important;
+      border-color: #10b981 !important;
+    }
+
+    /* Empty State */
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+      grid-column: 1 / -1;
+    }
+
+    .empty-icon {
+      font-size: 3rem;
+      margin-bottom: 12px;
+      display: inline-block;
+    }
+
+    .empty-text {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 6px;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #0f172a;
+      color: #ffffff;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      z-index: 1000;
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      pointer-events: none;
+    }
+
+    [data-theme="dark"] .toast {
+      background: #ffffff;
+      color: #0f172a;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* Modal / Dialog */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 23, 42, 0.7);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 200;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+
+    .modal-overlay.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-card {
+      background: #ffffff;
+      color: #0f172a;
+      border-radius: var(--radius-lg);
+      width: 100%;
+      max-width: 520px;
+      padding: 28px 24px 24px;
+      box-shadow: var(--shadow-lg);
+      transform: scale(0.92);
+      transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      position: relative;
+    }
+
+    .modal-overlay.open .modal-card {
+      transform: scale(1);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid #e2e8f0;
+      background: #f8fafc;
+      color: #64748b;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      transition: all 0.2s ease;
+    }
+
+    .modal-close:hover {
+      background: #fee2e2;
+      color: #ef4444;
+      border-color: #fca5a5;
+    }
+
+    .modal-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 14px;
+      background: #ecfdf5;
+      color: #059669;
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-bottom: 16px;
+    }
+
+    .modal-text {
+      font-size: 1.45rem;
+      font-weight: 700;
+      line-height: 1.7;
+      color: #000000;
+      margin-bottom: 26px;
+      text-align: left;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .modal-btn-copy {
+      flex: 2;
+      background: #059669;
+      color: white;
+      border: none;
+      padding: 12px 18px;
+      border-radius: var(--radius-sm);
+      font-weight: 700;
+      font-size: 1rem;
+      font-family: inherit;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.2s ease;
+    }
+
+    .modal-btn-copy:hover {
+      background: #047857;
+    }
+
+    .modal-btn-share, .modal-btn-fav {
+      flex: 1;
+      background: #f1f5f9;
+      color: #0f172a;
+      border: 1px solid #cbd5e1;
+      padding: 12px;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      font-size: 0.95rem;
+      font-family: inherit;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .modal-btn-fav.is-fav {
+      color: #ef4444;
+      background: #fee2e2;
+      border-color: #fca5a5;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 32px 0 24px;
+      margin-top: auto;
+      text-align: center;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .footer-logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: var(--primary);
+    }
+
+    .footer-desc {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      max-width: 480px;
+    }
+
+    .footer-copy {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 12px;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .hero-title {
+        font-size: 1.65rem;
+      }
+      .hero-subtitle {
+        font-size: 0.95rem;
+      }
+      .caption-grid {
+        grid-template-columns: 1fr;
+      }
+      .btn-random span {
+        display: none;
+      }
+      .btn-random {
+        padding: 8px 10px;
+      }
+      .modal-text {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="#" class="logo" onclick="resetFilters(); return false;">
+        <div class="logo-icon">✍️</div>
+        <span>বাংলা ক্যাপশন</span>
+      </a>
+
+      <div class="header-actions">
+        <!-- Random Caption Button -->
+        <button class="btn-random" onclick="showRandomCaption()" title="এলোমেলো ক্যাপশন">
+          🎲 <span>দৈবচয়ন</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button class="btn-icon" id="themeToggle" onclick="toggleTheme()" title="ডার্ক মোড পরিবর্তন">
+          🌙
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">✨ ১৫০+ সেরা ক্যাপশন সংগ্রহ</div>
+      <h1 class="hero-title">মনের কথা বলুন সুন্দর ক্যাপশনে</h1>
+      <p class="hero-subtitle">ফেসবুক, ইনস্টাগ্রাম ও হোয়াটসঅ্যাপের জন্য মনের মতো বাংলা ক্যাপশন ও স্ট্যাটাস খুঁজুন এক নিমেষেই।</p>
+
+      <!-- Search Bar -->
+      <div class="search-box">
+        <span class="search-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </span>
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="ক্যাপশন খুঁজুন (যেমন: ভালোবাসা, হাসি, বন্ধু)..."
+          oninput="handleSearch(this.value)"
+        >
+        <button id="searchClear" class="search-clear" onclick="clearSearch()" title="মুছে ফেলুন">✕</button>
+      </div>
+
+      <!-- Filter Tabs (All / Popular / Favorites) -->
+      <div class="view-tabs">
+        <button class="view-tab active" id="tabAll" onclick="setViewMode('all')">
+          📋 সব ক্যাপশন
+        </button>
+        <button class="view-tab" id="tabPopular" onclick="setViewMode('popular')">
+          🔥 জনপ্রিয়
+        </button>
+        <button class="view-tab" id="tabFavorites" onclick="setViewMode('favorites')">
+          ❤️ পছন্দের তালিকা (<span id="favCount">০</span>)
+        </button>
+      </div>
+
+      <!-- Categories Chips Bar -->
+      <div class="categories-wrapper">
+        <div class="categories-list" id="categoryChips">
+          <!-- Dynamic category chips will be injected here -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div>
+        প্রদর্শিত হচ্ছে: <span class="caption-count" id="displayedCount">০</span> টি ক্যাপশন
+      </div>
+      <div id="activeFilterLabel" style="font-size: 0.85rem; font-weight: 500;"></div>
+    </div>
+
+    <!-- Caption Grid -->
+    <div class="caption-grid" id="captionGrid">
+      <!-- Captions will be dynamically rendered here -->
+    </div>
+  </main>
+
+  <!-- Enlarged / Random Modal -->
+  <div class="modal-overlay" id="captionModal" onclick="handleModalBackdrop(event)">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal()" title="বন্ধ করুন">✕</button>
+      <div class="modal-badge" id="modalCategory">✨ ক্যাপশন</div>
+      <div class="modal-text" id="modalText">ক্যাপশন টেক্সট এখানে প্রদর্শিত হবে...</div>
+      <div class="modal-actions">
+        <button class="modal-btn-copy" id="modalCopyBtn" onclick="copyModalCaption()">
+          📋 কপি করুন
+        </button>
+        <button class="modal-btn-share" onclick="shareModalCaption()">
+          🔗 শেয়ার
+        </button>
+        <button class="modal-btn-fav" id="modalFavBtn" onclick="toggleModalFav()">
+          ❤️ প্রিয়
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    ✅ ক্যাপশন কপি হয়েছে!
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-logo">✍️ বাংলা ক্যাপশন</div>
+      <p class="footer-desc">বাংলা ভাষায় অনুভূতি প্রকাশের সেরা ঠিকানা। সব ক্যাপশন সম্পূর্ণ বিনামূল্যে ব্যবহার এবং সামাজিক মাধ্যমে শেয়ারযোগ্য।</p>
+      <div class="footer-copy">© 2026 বাংলা ক্যাপশন. সর্বস্বত্ব সংরক্ষিত।</div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Application Logic -->
+  <script>
+    // 1. Categories Data
+    const CATEGORIES = [
+      { id: "all", name: "সব ক্যাটাগরি", icon: "🌟" },
+      { id: "funny", name: "হাসির", icon: "😂" },
+      { id: "sad", name: "কষ্টের", icon: "💔" },
+      { id: "love", name: "ভালোবাসার", icon: "❤️" },
+      { id: "attitude", name: "Attitude", icon: "😎" },
+      { id: "friendship", name: "বন্ধুত্ব", icon: "🤝" },
+      { id: "islamic", name: "ইসলামিক", icon: "✨" },
+      { id: "life", name: "জীবনবোধ", icon: "🌱" },
+      { id: "family", name: "পরিবার", icon: "👨‍👩‍👧" },
+      { id: "loneliness", name: "একাকীত্ব", icon: "🌙" },
+      { id: "beautiful_moments", name: "সুন্দর মুহূর্ত", icon: "🌸" }
+    ];
+
+    // 2. All 150 High-Quality Bengali Captions
+    const CAPTIONS = [
+      // 1. হাসির ক্যাপশন (funny)
+      { id: 101, text: "পড়াশোনা আর আমার সম্পর্কটা ঠিক যেন টুথপেস্ট আর ব্রাশের মতো—চাপ না দিলে কিছু বের হয় না!", category: "funny", catName: "হাসির ক্যাপশন", isPopular: true },
+      { id: 102, text: "আমি অলস নই, আমি আসলে এনার্জি সেভিং মোডে আছি!", category: "funny", catName: "হাসির ক্যাপশন" },
+      { id: 103, text: "ডায়েট করার সেরা নিয়ম: মিষ্টি খাবার দেখে চোখ বন্ধ করুন, যাতে ক্যালরি আপনাকে দেখতে না পায়!", category: "funny", catName: "হাসির ক্যাপশন", isPopular: true },
+      { id: 104, text: "ঘুম হলো পৃথিবীর একমাত্র জিনিস, যার জন্য কোনো ফি দিতে হয় না, অথচ সময়মতো পাওয়া যায় না।", category: "funny", catName: "হাসির ক্যাপশন" },
+      { id: 105, text: "স্মার্টফোনের চার্জ আর আমার ধৈর্য—দুটোই খুব দ্রুত শেষ হয়ে যায়!", category: "funny", catName: "হাসির ক্যাপশন" },
+      { id: 106, text: "টাকা দিয়ে সুখ কেনা যায় না ঠিকই, কিন্তু ফুচকা তো কেনা যায়, আর ফুচকাই হলো আসল সুখ!", category: "funny", catName: "হাসির ক্যাপশন", isPopular: true },
+      { id: 107, text: "সকালে ঘুম থেকে উঠলেই মনে হয়, বিছানার সাথে আমার জন্ম জন্মান্তরের গভীর ভালোবাসা।", category: "funny", catName: "হাসির ক্যাপশন" },
+      { id: 108, text: "মন খারাপ হলে গান শুনুন, আর গান শুনেও ভালো না লাগলে এক প্লেট বিরিয়ানি খেয়ে ঘুমান!", category: "funny", catName: "হাসির ক্যাপশন" },
+      { id: 109, text: "আজকের কাজ কালকে ফেলে রাখাটা আমার কোনো আলসেমি না, ভবিষ্যতের প্রতি বিশ্বাস!", category: "funny", catName: "হাসির ক্যাপশন" },
+      { id: 110, text: "বিয়েবাড়ি গিয়ে ছবি তোলার চেয়ে বেশি মনোযোগ দিয়ে বিরিয়ানির লেগপিস খোঁজা মানুষটাই আমি!", category: "funny", catName: "হাসির ক্যাপশন", isPopular: true },
+      { id: 111, text: "ফেসবুকের স্ট্যাটাস দেখে মনে হয় সবাই দার্শনিক, বাস্তবে কারো রুমের চাবিই খুঁজে পাওয়া যায় না!", category: "funny", catName: "হাসির ক্যাপশন" },
+      { id: 112, text: "মা বলে: সারাদিন ফোন নিয়ে পড়ে থাকিস। ফোন বলে: তুই তো আমাকে ছাড়া এক মুহূর্তও চলতে পারিস না!", category: "funny", catName: "হাসির ক্যাপশন" },
+      { id: 113, text: "যে বন্ধুরা বিল দেওয়ার সময় ওয়াশরুমে যায়, তাদের জন্য নোবেল শান্তি পুরস্কার চালু করা উচিত!", category: "funny", catName: "হাসির ক্যাপশন" },
+      { id: 114, text: "জীবনে কোনো সমস্যা আসলে ভাবি এড়িয়ে যাবো, কিন্তু সমস্যাগুলো আমাকেই বেশি ভালোবাসে!", category: "funny", catName: "হাসির ক্যাপশন" },
+      { id: 115, text: "শীতকালে গোসল করা আর যুদ্ধ জয় করা একই বীরত্বের সমান!", category: "funny", catName: "হাসির ক্যাপশন", isPopular: true },
+
+      // 2. কষ্টের ক্যাপশন (sad)
+      { id: 201, text: "কিছু ব্যথা চোখ দিয়ে ঝরে পড়ে না, সেগুলো শুধু বুকের বাম পাশে ভারী হয়ে জমে থাকে।", category: "sad", catName: "কষ্টের ক্যাপশন", isPopular: true },
+      { id: 202, text: "সবচেয়ে বেশি কষ্ট তখন হয়, যখন মনের অজান্তেই নিজের সবচেয়ে প্রিয় মানুষটা বদলে যায়।", category: "sad", catName: "কষ্টের ক্যাপশন", isPopular: true },
+      { id: 203, text: "অভিনয় করতে করতে এখন নিজেই ভুলে গেছি, আমার হাসিমুখের পেছনে কতটা দীর্ঘশ্বাস লুকিয়ে আছে।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 204, text: "সব অভিযোগ কি আর মুখে বলা যায়? কিছু অভিযোগ নীরব হয়ে চোখের কোণায় শুকিয়ে যায়।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 205, text: "যে মানুষটা একসময় দিনভর কথা বলতো, আজ তার সাথে কথা বলতেও অজুহাত খুঁজতে হয়।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 206, text: "ভুল মানুষের প্রতি সঠিক ভালোবাসা বিলিয়ে দেওয়ার চেয়ে বড় কোনো আফসোস আর কিছু হতে পারে না।", category: "sad", catName: "কষ্টের ক্যাপশন", isPopular: true },
+      { id: 207, text: "স্মৃতিগুলো কখনো মরে না, কিন্তু প্রতিটি রাতে নিঃশব্দে মানুষকে মেরে ফেলে।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 208, text: "কাউকে আপন ভেবে হৃদয়ের দরজা খুলে দিয়েছিলাম, কিন্তু সে আমাকে একা করে দিয়ে চলে গেল।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 209, text: "যেখানে অবহেলার মাত্রা বেশি, সেখান থেকে নিঃশব্দে সরে আসাই সবচেয়ে বড় আত্মমর্যাদা।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 210, text: "অপেক্ষা করতে করতে একটা সময় ভালোবাসাই ফুরিয়ে যায়, পড়ে থাকে শুধুই শূন্যতা।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 211, text: "সব কথা সবাই বোঝে না, আর কিছু অনুভূতি তো নিজের কাছেও অচেনা লাগে।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 212, text: "চোখের জল মুছে ফেলা সহজ, কিন্তু বুকের ভেতরে জমে থাকা কান্নার আওয়াজ কাউকে শোনানো যায় না।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 213, text: "একটা সময় ছিল যখন স্বপ্ন দেখতে ভালোবাসতাম, এখন সেই স্বপ্নগুলোই দুঃস্বপ্ন হয়ে ফিরে আসে।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 214, text: "ভীড়ের মাঝে থেকেও যখন নিজেকে খুব একা মনে হয়, তখনই বোঝা যায় একাকিত্বের গভীরতা।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+      { id: 215, text: "কখনো কখনো পরিস্থিতি এমন হয় যে, হারিয়ে যাওয়া ছাড়া অন্য কোনো পথ বাকি থাকে না।", category: "sad", catName: "কষ্টের ক্যাপশন" },
+
+      // 3. ভালোবাসার ক্যাপশন (love)
+      { id: 301, text: "তোমার এক চিলতে হাসির ভেতরেই লুকিয়ে আছে আমার সমস্ত পৃথিবীর প্রশান্তি।", category: "love", catName: "ভালোবাসার ক্যাপশন", isPopular: true },
+      { id: 302, text: "হাজারটা সুন্দর মুখের ভিড়েও আমার চোখ শুধু তোমাকেই খুঁজে বেড়ায় অবিরত।", category: "love", catName: "ভালোবাসার ক্যাপশন", isPopular: true },
+      { id: 303, text: "তুমি আমার সেই সুন্দর গল্প, যা আমি প্রতিদিন নতুন করে পড়তে ভালোবাসি।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 304, text: "ভালোবাসা মানে কেবল কাছে থাকা নয়, দূর থেকেও কারো জন্য ব্যাকুল হয়ে প্রার্থনা করা।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 305, text: "এক কাপ চা আর তোমার সাথে কাটানো একমুহূর্ত বিকেল—আমার জীবনের সেরা সঞ্চয়।", category: "love", catName: "ভালোবাসার ক্যাপশন", isPopular: true },
+      { id: 306, text: "চোখে চোখ রেখে কথা না বললেও, তোমার নীরবতাই আমার হৃদয়ের সব ভাষা বুঝতে পারে।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 307, text: "তোমার হাতটি ধরে যদি পুরো জীবন হেঁটে যেতে পারি, তবে পথ যতই দীর্ঘ হোক না কেন ক্লান্তি আসবে না।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 308, text: "মেঘ যেমন ভালোবেসে জড়িয়ে ধরে আকাশকে, আমি তেমনি মন দিয়ে তোমাকে আগলে রাখতে চাই।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 309, text: "হাজারটা উপহারের চেয়েও তোমার দেওয়া একমুঠো আন্তরিক মনোযোগ আমার কাছে অনেক বেশি দামী।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 310, text: "যদি কোনোদিন সব কিছু হারিয়ে যায়, শুধু তুমি থেকো আমার জীবনের শেষ ভরসা হয়ে।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 311, text: "তুমি আমার সেই নিঃশব্দ অনুভব, যা কোনোদিন শব্দ দিয়ে পুরোপুরি বোঝানো সম্ভব নয়।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 312, text: "বৃষ্টির দিনে জানালার পাশে বসে তোমার কথা ভাবাটাই আমার সবচেয়ে প্রিয় অবসর।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 313, text: "ভালোবাসার কোনো নির্দিষ্ট সংজ্ঞা নেই, তবে তোমার সাথে কাটানো প্রতিটা মুহূর্তই ভালোবাসা।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 314, text: "তোমার উপস্থিতিতে চারপাশের কোলাহল যেন মিষ্টি সুরেলা সঙ্গীতে পরিণত হয়।", category: "love", catName: "ভালোবাসার ক্যাপশন" },
+      { id: 315, text: "তুমি আমার প্রথম ভালোলাগা না হতে পারো, কিন্তু তুমিই আমার জীবনের শেষ ভালোবাসা।", category: "love", catName: "ভালোবাসার ক্যাপশন", isPopular: true },
+
+      // 4. Attitude ক্যাপশন (attitude)
+      { id: 401, text: "আমার ব্যক্তিত্ব আমার নিজের পছন্দ, আর আপনার মনোভাব আপনার নিজস্ব সমস্যা!", category: "attitude", catName: "Attitude ক্যাপশন", isPopular: true },
+      { id: 402, text: "আমি কারও অনুকরণ করি না, কারণ নিজেকে নিয়ে আমি নিজেই একটি সম্পূর্ণ অধ্যায়।", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 403, text: "আমাকে বুঝতে গেলে গভীরতার প্রয়োজন, আর অগভীর মানুষদের সেখানে ডুবে যাওয়ার ভয় থাকে।", category: "attitude", catName: "Attitude ক্যাপশন", isPopular: true },
+      { id: 404, text: "নীরবতা মানে দুর্বলতা নয়, সিংহ শিকার করার আগে সবসময় নিঃশব্দেই থাকে!", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 405, text: "ভিড়ের অংশ হতে আমি আসিনি, ভিড় তৈরি করার জন্যই আমার উপস্থিতি!", category: "attitude", catName: "Attitude ক্যাপশন", isPopular: true },
+      { id: 406, text: "সবাইকে খুশি করার দায়িত্ব আমি নিইনি, কারণ আমি কোনো বিনোদনের মাধ্যম নই।", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 407, text: "সম্মান দিলে দ্বিগুণ ফেরত পাবেন, আর অহংকার দেখালে মুখ ফিরিয়ে নেওয়া আমার অভ্যাস।", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 408, text: "আমার পথচলা আমার নিজস্ব নিয়মে, কার কী মত তাতে আমার কিছু যায় আসে না।", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 409, text: "যে আমাকে হারিয়েছে, ক্ষতিটা তার হয়েছে; কারণ খাঁটি মানুষ বারবার মেলে না!", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 410, text: "শত্রু বাড়তে থাকলে বুঝবেন আপনি সফলতার সঠিক পথেই এগিয়ে যাচ্ছেন!", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 411, text: "আমি কারো চোখে ভালো হওয়ার জন্য নিজের আসল রূপ বদলাতে পারব না।", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 412, text: "যার সাথে আমার মনের মিল হয় না, তাকে আমি ভদ্রভাবে এড়িয়ে চলাই শ্রেয় মনে করি।", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 413, text: "আমার গল্পে আমিই নায়ক, অন্যের চিত্রনাট্যে অভিনয় করার মতো সময় আমার নেই!", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 414, text: "পতন দেখে যারা হাসে, তারা জানে না আমার প্রতিটা কামব্যাক ইতিহাস তৈরি করে।", category: "attitude", catName: "Attitude ক্যাপশন" },
+      { id: 415, text: "জীবন একটাই, তাই নিজের শর্তে বাঁচাই আমার সবচেয়ে বড় অহংকার!", category: "attitude", catName: "Attitude ক্যাপশন", isPopular: true },
+
+      // 5. বন্ধুত্বের ক্যাপশন (friendship)
+      { id: 501, text: "রক্তের সম্পর্ক না হয়েও যারা পরিবারের চেয়ে বেশি আপন হয়ে ওঠে, তারাই হলো আসল বন্ধু।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন", isPopular: true },
+      { id: 502, text: "বন্ধুর সাথে চায়ের আড্ডায় যে সুখ পাওয়া যায়, তা কোনো বিলাসবহুল রেস্তোরাঁতেও মেলে না।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন", isPopular: true },
+      { id: 503, text: "বন্ধু মানে কোনো আনুষ্ঠানিকতা নয়, যার সামনে কোনো মুখোশ ছাড়াই মন খুলে বাঁচা যায়।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 504, text: "জীবন যখন কঠিন পরীক্ষা নেয়, তখন পাশে দাঁড়িয়ে যে বলে 'আমি আছি তো', সেই তো পরম বন্ধু।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 505, text: "হাজার জন পরিচিত মানুষের চেয়ে একজন বিশ্বস্ত বন্ধুই জীবনের শ্রেষ্ঠ উপহার।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 506, text: "বন্ধুদের সাথে আড্ডার সময় ঘড়ির কাঁটা যেন ঝড়ের বেগে ছুটে চলে!", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 507, text: "দূরত্ব কখনো আসল বন্ধুত্বের বাঁধন আলগা করতে পারে না, মনের টান সবসময় এক থাকে।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 508, text: "ভালো সময়ে তো অনেকেই সাথে থাকে, কিন্তু বিপদের দিনে ছাতা হয়ে দাঁড়ায় শুধু খাঁটি বন্ধুরা।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 509, text: "যে বন্ধু হাসির পেছনে লুকিয়ে থাকা কষ্টটাও পড়ে ফেলতে পারে, সে বন্ধুর কোনো তুলনা নেই।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 510, text: "পুরনো বন্ধুদের সাথে দেখা হওয়া মানে স্মৃতিগুলোর সাথে নতুন করে বেঁচে ওঠা।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 511, text: "আমাদের বন্ধুত্বের গল্পে কোনো স্বার্থ নেই, আছে শুধু একরাশ ভালোবাসা আর পাগলামি!", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 512, text: "মন খারাপের দিনগুলোতে এক চিলতে রোদ হয়ে আসে বন্ধুদের সামান্য একটা ফোন কল।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 513, text: "বন্ধুর সাফল্য দেখে যে হিংসা করে না বরং গর্বে বুক ফুলিয়ে বলে 'ও আমার বন্ধু', সে মহামূল্যবান।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 514, text: "বয়স যতই বাড়ুক, স্কুলের বন্ধুদের সাথে বসলে আমরা সেই আগের মতোই ছেলেমানুষ হয়ে যাই।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন" },
+      { id: 515, text: "বন্ধুত্ব এমন এক আশ্রয়, যেখানে মনের সব না-বলা কথা অনায়াসে বলে ফেলা যায়।", category: "friendship", catName: "বন্ধুত্বের ক্যাপশন", isPopular: true },
+
+      // 6. ইসলামিক ক্যাপশন (islamic)
+      { id: 601, text: "আলহামদুলিল্লাহ! প্রতিটি নিঃশ্বাস ও প্রতিটি নিয়ামতের জন্য মহান আল্লাহর কাছে অশেষ শুকরিয়া।", category: "islamic", catName: "ইসলামিক ক্যাপশন", isPopular: true },
+      { id: 602, text: "ধৈর্য রাখুন, কারণ আল্লাহ তায়ালা ধৈর্যশীলদের কখনো একা ও নিরাশ করেন না।", category: "islamic", catName: "ইসলামিক ক্যাপশন", isPopular: true },
+      { id: 603, text: "নামাজ হলো মনের সবচেয়ে শান্তির আশ্রয়, যা বান্দাকে তার রবের সবচেয়ে কাছে নিয়ে যায়।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 604, text: "হতাশ হবেন না, হয়তো আপনার রবের দেওয়া ফায়সালা আপনার চাওয়ার চেয়েও বহুগুণ উত্তম।", category: "islamic", catName: "ইসলামিক ক্যাপশন", isPopular: true },
+      { id: 605, text: "সুসময়ে শুকরিয়া আদায় করুন এবং দুঃসময়ে সবরের মাধ্যমে আল্লাহর সাহায্য প্রার্থনা করুন।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 606, text: "আল্লাহর কাছে মন খুলে চোখের পানি ফেলুন, মানুষের কাছে হাত পাতার চেয়ে রবের দরবার অনেক বড়।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 607, text: "যে জীবনে আল্লাহর সন্তুষ্টি নেই, সে জীবনে বাহ্যিক প্রাচুর্য থাকলেও মনের কোনো শান্তি থাকে না।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 608, text: "প্রতিটি নতুন সকাল মহান আল্লাহর দেওয়া নতুন একটি সুযোগ—নিজেকে সংশোধন করার জন্য।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 609, text: "হৃদয়ের প্রকৃত প্রশান্তি লুকিয়ে আছে আল-কুরআনের প্রতিটি বাণীর মাঝে।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 610, text: "আল্লাহকে ভালোবাসুন, দেখবেন দুনিয়ার কোনো ক্ষতি আপনাকে কখনো ভেঙে ফেলতে পারবে না।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 611, text: "তাওবা হলো হৃদয়ের সমস্ত পাপ ধুয়ে ফেলার একমাত্র শীতল বৃষ্টির ফোঁটা।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 612, text: "যার অন্তরে আল্লাহর ভয় থাকে, তার আচরণ সবসময় নম্র ও সুন্দর হয়।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 613, text: "ভাগ্য নিয়ে অসন্তুষ্ট হবেন না, কারণ আপনার জন্য কী মঙ্গলজনক তা কেবল আল্লাহই জানেন।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 614, text: "সবচেয়ে সুন্দর মানুষ সেই, যার মুখের ভাষা মিষ্টি আর চরিত্র রাসুলুল্লাহ (সাঃ)-এর সুন্নাহ অনুযায়ী।", category: "islamic", catName: "ইসলামিক ক্যাপশন" },
+      { id: 615, text: "আল্লাহর উপর অগাধ ভরসাই যেকোনো কঠিন পরিস্থিতি জয়ের একমাত্র চাবিকাঠি।", category: "islamic", catName: "ইসলামিক ক্যাপশন", isPopular: true },
+
+      // 7. জীবনের ক্যাপশন (life)
+      { id: 701, text: "জীবন মানে শুধু বেঁচে থাকা নয়, বরং প্রতিটি ক্ষুদ্র মুহূর্তে আনন্দ খুঁজে নেওয়ার এক সুন্দর শিল্প।", category: "life", catName: "জীবনের ক্যাপশন", isPopular: true },
+      { id: 702, text: "কঠিন সময়গুলো মানুষকে দুর্বল করতে আসে না, বরং ভেতরের শক্তিকে জাগিয়ে তুলতে আসে।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 703, text: "অতীত নিয়ে অনুশোচনা করে লাভ নেই, বর্তমানকে সুন্দরভাবে গড়াই জীবনের আসল লক্ষ্য।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 704, text: "অন্যের সাথে নিজেকে তুলনা করা বন্ধ করুন; সূর্য ও চাঁদ দুজনেরই নিজস্ব আলো ও সময় আছে।", category: "life", catName: "জীবনের ক্যাপশন", isPopular: true },
+      { id: 705, text: "জীবনের সবচেয়ে বড় শিক্ষা পাওয়া যায় ব্যর্থতার পর আবার নতুন উদ্যমে ঘুরে দাঁড়ানোর মধ্যে।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 706, text: "সহজ সরল জীবনযাপনের মাঝেই সবচেয়ে গভীর ও অনাবিল সুখ লুকিয়ে থাকে।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 707, text: "অভিজ্ঞতা কখনো বই পড়ে অর্জন করা যায় না, জীবনের কঠিন বাস্তবতাই মানুষকে শিখিয়ে দেয়।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 708, text: "মানুষ তখনই পরিণত হয়, যখন সে তর্কের চেয়ে নিজের শান্তিকে বেশি মূল্যবান মনে করে।", category: "life", catName: "জীবনের ক্যাপশন", isPopular: true },
+      { id: 709, text: "জীবনের প্রতিটি ঝড় আপনার চলার পথ নষ্ট করতে আসে না, কিছু ঝড় পথ পরিষ্কারও করে দেয়।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 710, text: "যে মানুষটি নিজের সাথে নিজে কথা বলতে পারে, সে কখনো জীবনের কাছে পরাজিত হয় না।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 711, text: "ভুল মানুষের হাত ছেড়ে দিলে সঠিক গন্তব্যের সন্ধান পাওয়া অনেক সহজ হয়ে যায়।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 712, text: "জীবন একটি ক্যানভাস, আপনি যেমন রঙ বেছে নেবেন ছবিটিও ঠিক তেমনই ফুটে উঠবে।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 713, text: "সময়ের চেয়ে বড় শিক্ষক আর কেউ নেই, সে নিঃশব্দে মানুষকে সব বাস্তবতার মুখোমুখি দাঁড় করায়।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 714, text: "ক্ষমা করতে শিখুন, কারণ ক্ষমা করা দুর্বলতা নয়—এটি মনের বিশালতার পরিচয়।", category: "life", catName: "জীবনের ক্যাপশন" },
+      { id: 715, text: "দিনশেষে শান্তিটাই আসল, নাম আর খ্যাতির চেয়ে রাতের নিশ্চিন্ত ঘুম অনেক বেশি মূল্যবান।", category: "life", catName: "জীবনের ক্যাপশন", isPopular: true },
+
+      // 8. পরিবার নিয়ে ক্যাপশন (family)
+      { id: 801, text: "পুরো পৃথিবী একদিকে আর আমার পরিবার অন্যদিকে—আমার সকল শক্তির উৎস আমার আপনজনেরা।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন", isPopular: true },
+      { id: 802, text: "মা-বাবার নিঃস্বার্থ হাসির চেয়ে সুন্দর দৃশ্য এই সুন্দর পৃথিবীতে আর দ্বিতীয়টি নেই।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন", isPopular: true },
+      { id: 803, text: "পরিবার এমন এক নিরাপদ নীড়, যেখানে কোনো স্বার্থ ছাড়া ভালোবাসা পাওয়া যায়।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 804, text: "বাবার শক্ত হাত আর মায়ের মমতা থাকলে যেকোনো কঠিন পথ সহজে পাড়ি দেওয়া যায়।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 805, text: "ভাই-বোনের মিষ্টি ঝগড়া আর খুনসুটির মাঝেই লুকিয়ে থাকে শৈশবের সবচেয়ে মিষ্টি স্মৃতিগুলো।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 806, text: "দিনশেষে ক্লান্ত শরীর নিয়ে ঘরে ফিরে পরিবারের হাসিভরা মুখ দেখলেই সব ক্লান্তি মুছে যায়।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন", isPopular: true },
+      { id: 807, text: "পরিবারের ঐক্যই হলো একটি সুখী জীবনের সবচেয়ে মজবুত ভিত।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 808, text: "মায়ের রান্না করা খাবারের স্বাদে যে মায়া আছে, তা পৃথিবীর সেরা রেস্তোরাঁতেও পাওয়া যাবে না।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 809, text: "পরিবার মানে একে অপরকে ভুলত্রুটি সহ ভালোবাসা এবং সবসময় পাশে থাকা।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 810, text: "যত বড় সাফল্যই আসুক না কেন, পরিবারের সাথে ভাগ না করতে পারলে তা অপূর্ণ থেকে যায়।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 811, text: "বাবার ঘাম আর মায়ের দোয়া—এই দুইয়ের শক্তিতেই আজ আমি এতদূর পৌঁছেছি।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 812, text: "যে বাড়িতে বড়দের প্রতি সম্মান আর ছোটদের প্রতি স্নেহ আছে, সে বাড়িই পৃথিবীর স্বর্গ।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 813, text: "পরিবারের মানুষের ভালো থাকার মধ্যেই আমার আসল সুখ নিহিত।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 814, text: "সম্পর্ক অনেক তৈরি হয় জীবনে, কিন্তু পরিবারের রক্তের বন্ধন কখনো ক্ষয়ে যায় না।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন" },
+      { id: 815, text: "আমার জীবনের সবচেয়ে বড় আশীর্বাদ হলো আমার ভালোবাসা দিয়ে ঘেরা পরিবার।", category: "family", catName: "পরিবার নিয়ে ক্যাপশন", isPopular: true },
+
+      // 9. একাকীত্বের ক্যাপশন (loneliness)
+      { id: 901, text: "একাকিত্ব কখনো কখনো মানুষকে কষ্ট দেয় না, বরং নিজের সাথে নিজের গভীর পরিচয় করিয়ে দেয়।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন", isPopular: true },
+      { id: 902, text: "নীরবতার একটা নিজস্ব ভাষা আছে, যা কোলাহলে অভ্যস্ত মানুষ কখনো বুঝতে পারে না।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 903, text: "ভুল মানুষের সাথে কৃত্রিম সম্পর্কে থাকার চেয়ে নিঃসঙ্গ থাকা অনেক বেশি সম্মানের।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন", isPopular: true },
+      { id: 904, text: "কখনো কখনো একা বসে এক কাপ কফির সাথে নিজের ফেলে আসা দিনের কথা ভাবতে বেশ ভালো লাগে।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 905, text: "রাত যত গভীর হয়, মানুষের একাকিত্বের দেয়ালগুলো ততই স্পষ্ট ও ভারী হতে থাকে।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 906, text: "আমি একা থাকতে শিখে গেছি, কারণ মিথ্যে আশ্বাসের চেয়ে একাকিত্ব অনেক বেশি বিশ্বস্ত।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 907, text: "নিজের ভেতরের শূন্যতা ঢাকতে কারো আশ্রয় খোঁজার চেয়ে নিজের একাকীত্বকে আপন করে নেওয়া ভালো।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 908, text: "যখন কেউ আপনার নীরবতার কারণ বোঝার চেষ্টা করে না, তখন একা থাকাই শ্রেয়।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 909, text: "একাকী থাকা কোনো অভিশাপ নয়, এটি এমন এক অবস্থা যা মানুষকে আত্মনির্ভরশীল হতে শেখায়।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 910, text: "কোলাহলের এই শহরের ভিড়েও প্রতিটি মানুষ আসলে ভেতরে ভেতরে ভীষণ রকম একা।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 911, text: "বৃষ্টিভেজা জানালার পাশে নিঃশব্দে দাঁড়িয়ে থাকার অনুভূতির মতো কোনো সঙ্গী নেই।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 912, text: "নিজেকে নতুন করে আবিষ্কার করার সবচেয়ে নিরাপদ আশ্রয় হলো একাকিত্বের গভীর মুহূর্তগুলো।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 913, text: "কেউ পাশে না থাকলেও নিজের আত্মবিশ্বাসকে কখনো একা হতে দেওয়া উচিত নয়।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 914, text: "একাকিত্ব সেই আয়না, যেখানে মানুষ নিজের প্রকৃত রূপ আর অপূর্ণতা দেখতে পায়।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন" },
+      { id: 915, text: "মন যখন ক্লান্ত হয়ে পড়ে, তখন মানুষের ভীড় ছেড়ে নিজের নিভৃত কোণেই শান্তি খোঁজে।", category: "loneliness", catName: "একাকীত্বের ক্যাপশন", isPopular: true },
+
+      // 10. সুন্দর মুহূর্তের ক্যাপশন (beautiful_moments)
+      { id: 1001, text: "ছোট ছোট আনন্দগুলোই একসময় জীবনের সবচেয়ে সুন্দর এবং রঙিন স্মৃতিতে পরিণত হয়।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন", isPopular: true },
+      { id: 1002, text: "এক চিলতে মিষ্টি রোদ্দুর আর সোনালী সকালের এক কাপ চা—জীবনটা আসলেই বড় সুন্দর!", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন", isPopular: true },
+      { id: 1003, text: "প্রকৃতির স্নিগ্ধ বাতাসের স্পর্শে মন যখন ভরে যায়, তখন কোনো দুঃখ আর স্থায়ী থাকে না।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1004, text: "কিছু কিছু মুহূর্ত এমনভাবে হৃদয়ে গেঁথে যায়, যা বারবার মনে পড়লেও কখনো পুরনো হয় না।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1005, text: "বৃষ্টির প্রথম ফোঁটায় মাটির যে সোঁদা গন্ধ ছড়ায়, তার চেয়ে পবিত্র অনুভূতি খুব কমই আছে।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন", isPopular: true },
+      { id: 1006, text: "সূর্যাস্তের রক্তিম আভা দেখে মনে হয়, প্রতিটা সমাপ্তিও কত শান্ত ও সুন্দর হতে পারে!", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1007, text: "খোলা আকাশের নিচে দাঁড়িয়ে মুক্ত বাতাসে শ্বাস নেওয়াটাই জীবনের পরম স্বাধীনতা।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1008, text: "পুরনো অ্যালবাম উল্টে দেখার প্রতিটি পাতা যেন হারিয়ে যাওয়া মুহূর্তগুলোর জীবন্ত পদচিহ্ন।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1009, text: "প্রিয় মানুষের সাথে নীরব পথচলার মুহূর্তগুলো শব্দের চেয়ে অনেক বেশি কথা বলে।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1010, text: "একটি নিষ্পাপ শিশুর হাসির চেয়ে স্নিগ্ধ ও পবিত্র দৃশ্য আর কী হতে পারে?", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1011, text: "জীবন তো আসলে অনেকগুলো সুন্দর মুহূর্তের মালা, যা যত্ন করে গেঁথে রাখতে হয়।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1012, text: "গাছের পাতা ঝরে যাওয়ার মাঝেও যে বিষাদমাখা সৌন্দর্য আছে, তা কেবল প্রেমিক হৃদয় বোঝে।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1013, text: "আজকের এই সুন্দর দিনটি আর কখনো ফিরে আসবে না, তাই প্রতিটি মুহূর্ত মন ভরে উপভোগ করুন।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1014, text: "চাদের স্নিগ্ধ জোছনায় ভেসে যাওয়া রাতগুলো মনের সব ক্লান্তি ধুয়ে দিয়ে যায়।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন" },
+      { id: 1015, text: "হৃদয়ে যখন কৃতজ্ঞতা থাকে, তখন চারপাশের প্রতিটি সাধারণ দৃশ্যও অসাধারণ সুন্দর মনে হয়।", category: "beautiful_moments", catName: "সুন্দর মুহূর্তের ক্যাপশন", isPopular: true }
+    ];
+
+    // State
+    let currentCategory = "all";
+    let currentViewMode = "all"; // 'all' | 'popular' | 'favorites'
+    let searchQuery = "";
+    let favorites = new Set();
+    let currentModalCaption = null;
+
+    // Load Favorites & Theme from LocalStorage
+    function loadSavedData() {
+      try {
+        const savedFavs = localStorage.getItem("bangla_captions_favorites");
+        if (savedFavs) {
+          favorites = new Set(JSON.parse(savedFavs));
+        }
+      } catch (e) {
+        console.error(e);
+      }
+
+      const savedTheme = localStorage.getItem("bangla_captions_theme");
+      if (savedTheme) {
+        document.documentElement.setAttribute("data-theme", savedTheme);
+        updateThemeIcon(savedTheme === "dark");
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.setAttribute("data-theme", "dark");
+        updateThemeIcon(true);
+      }
+      updateFavBadgeCount();
+    }
+
+    function saveFavorites() {
+      try {
+        localStorage.setItem("bangla_captions_favorites", JSON.stringify(Array.from(favorites)));
+      } catch (e) {
+        console.error(e);
+      }
+      updateFavBadgeCount();
+    }
+
+    function updateFavBadgeCount() {
+      const el = document.getElementById("favCount");
+      if (el) {
+        el.textContent = toBengaliNumber(favorites.size);
+      }
+    }
+
+    // Bengali Number Converter
+    function toBengaliNumber(num) {
+      const bnDigits = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
+      return String(num).split('').map(d => bnDigits[d] !== undefined ? bnDigits[d] : d).join('');
+    }
+
+    // Theme Toggle
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute("data-theme");
+      const isDark = current === "dark";
+      const nextTheme = isDark ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", nextTheme);
+      localStorage.setItem("bangla_captions_theme", nextTheme);
+      updateThemeIcon(!isDark);
+    }
+
+    function updateThemeIcon(isDark) {
+      const btn = document.getElementById("themeToggle");
+      if (btn) {
+        btn.innerHTML = isDark ? "☀️" : "🌙";
+      }
+    }
+
+    // Render Categories
+    function renderCategoryChips() {
+      const container = document.getElementById("categoryChips");
+      container.innerHTML = CATEGORIES.map(cat => {
+        const isActive = cat.id === currentCategory ? "active" : "";
+        return `
+          <button class="cat-chip ${isActive}" onclick="selectCategory('${cat.id}')">
+            <span>${cat.icon}</span>
+            <span>${cat.name}</span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function selectCategory(catId) {
+      currentCategory = catId;
+      renderCategoryChips();
+      renderCaptions();
+    }
+
+    function setViewMode(mode) {
+      currentViewMode = mode;
+      document.getElementById("tabAll").classList.toggle("active", mode === "all");
+      document.getElementById("tabPopular").classList.toggle("active", mode === "popular");
+      document.getElementById("tabFavorites").classList.toggle("active", mode === "favorites");
+      renderCaptions();
+    }
+
+    function resetFilters() {
+      currentCategory = "all";
+      currentViewMode = "all";
+      searchQuery = "";
+      document.getElementById("searchInput").value = "";
+      document.getElementById("searchClear").style.display = "none";
+      renderCategoryChips();
+      setViewMode("all");
+    }
+
+    // Search
+    function handleSearch(val) {
+      searchQuery = val.trim().toLowerCase();
+      document.getElementById("searchClear").style.display = searchQuery ? "block" : "none";
+      renderCaptions();
+    }
+
+    function clearSearch() {
+      document.getElementById("searchInput").value = "";
+      handleSearch("");
+    }
+
+    // Render Captions
+    function renderCaptions() {
+      const grid = document.getElementById("captionGrid");
+      const countEl = document.getElementById("displayedCount");
+      const filterLabel = document.getElementById("activeFilterLabel");
+
+      let list = CAPTIONS;
+
+      // Filter by View Mode
+      if (currentViewMode === "popular") {
+        list = list.filter(c => c.isPopular);
+      } else if (currentViewMode === "favorites") {
+        list = list.filter(c => favorites.has(c.id));
+      }
+
+      // Filter by Category
+      if (currentCategory !== "all") {
+        list = list.filter(c => c.category === currentCategory);
+      }
+
+      // Filter by Search Query
+      if (searchQuery) {
+        list = list.filter(c => 
+          c.text.toLowerCase().includes(searchQuery) ||
+          c.catName.toLowerCase().includes(searchQuery)
+        );
+      }
+
+      // Update Count
+      countEl.textContent = toBengaliNumber(list.length);
+
+      // Update Filter Label
+      let labelParts = [];
+      if (currentViewMode === "popular") labelParts.push("জনপ্রিয়");
+      if (currentViewMode === "favorites") labelParts.push("পছন্দের তালিকা");
+      if (currentCategory !== "all") {
+        const catObj = CATEGORIES.find(c => c.id === currentCategory);
+        if (catObj) labelParts.push(catObj.name);
+      }
+      if (searchQuery) labelParts.push(`"${searchQuery}"`);
+      filterLabel.textContent = labelParts.length ? `(ফিল্টার: ${labelParts.join(' • ')})` : "";
+
+      if (list.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon">🔍</div>
+            <div class="empty-text">কোনো ক্যাপশন পাওয়া যায়নি</div>
+            <p>অন্য কোনো শব্দ দিয়ে খুঁজুন অথবা ক্যাটাগরি পরিবর্তন করুন।</p>
+          </div>
+        `;
+        return;
+      }
+
+      grid.innerHTML = list.map(c => {
+        const isFav = favorites.has(c.id);
+        const catInfo = CATEGORIES.find(cat => cat.id === c.category) || { icon: "✨", name: c.catName };
+        return `
+          <div class="caption-card" onclick="openModalById(${c.id})">
+            <div>
+              <div class="card-header">
+                <span class="card-cat-badge">
+                  ${catInfo.icon} ${c.catName}
+                </span>
+                <button 
+                  class="card-fav-btn ${isFav ? 'is-fav' : ''}" 
+                  onclick="event.stopPropagation(); toggleFavorite(${c.id})"
+                  title="${isFav ? 'পছন্দ থেকে মুছুন' : 'পছন্দ করুন'}"
+                >
+                  ${isFav ? '❤️' : '🤍'}
+                </button>
+              </div>
+              <div class="caption-text">${escapeHtml(c.text)}</div>
+            </div>
+
+            <div class="card-actions" onclick="event.stopPropagation()">
+              <button class="btn-action btn-copy-main" id="btnCopy_${c.id}" onclick="copyCaptionText('${escapeSingleQuote(c.text)}', this)">
+                📋 কপি
+              </button>
+              <button class="btn-action" onclick="shareCaption('${escapeSingleQuote(c.text)}')">
+                🔗 শেয়ার
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Toggle Favorite
+    function toggleFavorite(id) {
+      if (favorites.has(id)) {
+        favorites.delete(id);
+        showToast("পছন্দের তালিকা থেকে সরানো হয়েছে");
+      } else {
+        favorites.add(id);
+        showToast("পছন্দের তালিকায় যোগ করা হয়েছে ❤️");
+      }
+      saveFavorites();
+      renderCaptions();
+
+      if (currentModalCaption && currentModalCaption.id === id) {
+        updateModalFavButton();
+      }
+    }
+
+    // Copy To Clipboard
+    function copyCaptionText(text, btnElement) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          triggerCopySuccess(btnElement);
+        }).catch(() => {
+          fallbackCopy(text, btnElement);
+        });
+      } else {
+        fallbackCopy(text, btnElement);
+      }
+    }
+
+    function fallbackCopy(text, btnElement) {
+      const textarea = document.createElement("textarea");
+      textarea.value = text;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+      try {
+        document.execCommand('copy');
+        triggerCopySuccess(btnElement);
+      } catch (err) {
+        alert("কপি করা সম্ভব হয়নি, অনুগ্রহ করে টেক্সট সিলেক্ট করে কপি করুন।");
+      }
+      document.body.removeChild(textarea);
+    }
+
+    function triggerCopySuccess(btnElement) {
+      showToast("ক্যাপশন কপি হয়েছে! ✅");
+      if (btnElement) {
+        const originalHtml = btnElement.innerHTML;
+        btnElement.classList.add("copied");
+        btnElement.innerHTML = "✓ কপি হয়েছে!";
+        setTimeout(() => {
+          btnElement.classList.remove("copied");
+          btnElement.innerHTML = originalHtml;
+        }, 1800);
+      }
+    }
+
+    // Web Share API
+    function shareCaption(text) {
+      const shareData = {
+        title: "বাংলা ক্যাপশন",
+        text: `${text}\n\n— বাংলা ক্যাপশন`
+      };
+      if (navigator.share) {
+        navigator.share(shareData).catch(() => {});
+      } else {
+        // Fallback: Copy to clipboard and notify
+        copyCaptionText(shareData.text, null);
+        showToast("শেয়ার করার জন্য কপি হয়েছে! যেকোনো জায়গায় পেস্ট করুন।");
+      }
+    }
+
+    // Toast
+    let toastTimeout = null;
+    function showToast(msg) {
+      const toast = document.getElementById("toast");
+      toast.textContent = msg;
+      toast.classList.add("show");
+      if (toastTimeout) clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.remove("show");
+      }, 2200);
+    }
+
+    // Modal
+    function openModalById(id) {
+      const c = CAPTIONS.find(item => item.id === id);
+      if (!c) return;
+      currentModalCaption = c;
+
+      const catInfo = CATEGORIES.find(cat => cat.id === c.category) || { icon: "✨", name: c.catName };
+      document.getElementById("modalCategory").textContent = `${catInfo.icon} ${c.catName}`;
+      document.getElementById("modalText").textContent = c.text;
+
+      updateModalFavButton();
+      document.getElementById("captionModal").classList.add("open");
+      document.body.style.overflow = "hidden";
+    }
+
+    function updateModalFavButton() {
+      if (!currentModalCaption) return;
+      const isFav = favorites.has(currentModalCaption.id);
+      const btn = document.getElementById("modalFavBtn");
+      btn.innerHTML = isFav ? "❤️ প্রিয়" : "🤍 প্রিয়";
+      btn.classList.toggle("is-fav", isFav);
+    }
+
+    function toggleModalFav() {
+      if (!currentModalCaption) return;
+      toggleFavorite(currentModalCaption.id);
+    }
+
+    function copyModalCaption() {
+      if (!currentModalCaption) return;
+      const btn = document.getElementById("modalCopyBtn");
+      copyCaptionText(currentModalCaption.text, btn);
+    }
+
+    function shareModalCaption() {
+      if (!currentModalCaption) return;
+      shareCaption(currentModalCaption.text);
+    }
+
+    function closeModal() {
+      document.getElementById("captionModal").classList.remove("open");
+      document.body.style.overflow = "";
+      currentModalCaption = null;
+    }
+
+    function handleModalBackdrop(event) {
+      if (event.target.id === "captionModal") {
+        closeModal();
+      }
+    }
+
+    // Random Caption Generator
+    function showRandomCaption() {
+      const randomIndex = Math.floor(Math.random() * CAPTIONS.length);
+      const randomCaption = CAPTIONS[randomIndex];
+      openModalById(randomCaption.id);
+    }
+
+    // Escape Helpers
+    function escapeHtml(str) {
+      return str
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function escapeSingleQuote(str) {
+      return str.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    }
+
+    // ESC key closes modal
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeModal();
+    });
+
+    // Initialize App
+    window.addEventListener("DOMContentLoaded", () => {
+      loadSavedData();
+      renderCategoryChips();
+      renderCaptions();
+    });
+  </script>
+</body>
+</html>
